@@ -16,9 +16,40 @@
       font-family: Arial, sans-serif;
       font-size: 3rem;
     }
+	
+	.logo{
+		font-family:'Exo 2', sans-serif;
+		font-size:40px;
+		font-weight:600;
+
+		background: linear-gradient(
+			180deg, 
+			#868c95 0%, 
+			#6d6d6d 45%, 
+			#2b2828 100%
+		);
+
+		-webkit-background-clip:text;
+		-webkit-text-fill-color:transparent;
+
+		text-shadow:
+			0 0 8px rgba(40, 90, 180, 0.12),
+			0 0 18px rgba(40, 90, 180, 0.08);
+	
+		filter: drop-shadow(
+			0 0 30px rgba(31,92,255,0.25)
+		);
+	}
+
   </style>
 </head>
 <body>
-  <div><img src="logo1.png" alt="Metal Negro Studio - Logo" /></div>
+  <div style="text-align: center">
+	<img src="logo1.png" alt="Metal Negro Studio - Logo" />
+	<div class="logo-wrap">
+		<span class="logo">METAL NEGRO STUDIO</span>
+	</div>
+  </div>
+  
 </body>
 </html>
